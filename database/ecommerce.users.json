@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "64b20a419a2cbc710d9d7fe0"
+  },
+  "name": "Adem Bahri",
+  "email": "adem@gmail.com",
+  "password": "$2b$10$slm9BabVIXB6Pr9If1napOQFN5wq/9SsIz3.bmpfYaslFjaas5nd6",
+  "phone": "50091931",
+  "address": "Jammel, Monastir",
+  "answer": "foot",
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-07-15T02:53:53.528Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-16T02:46:02.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b20a609a2cbc710d9d7fe3"
+  },
+  "name": "Adem",
+  "email": "adem@enis.tn",
+  "password": "$2b$10$22i2ORJQfadaQqewWV0kFuvmKYJwkn8y7ft8NPGFtjiTQLpnYQFbi",
+  "phone": "97316824",
+  "address": "Al Manar, Jammel, Monastir",
+  "answer": "hand",
+  "role": 0,
+  "createdAt": {
+    "$date": "2023-07-15T02:54:24.573Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-17T18:39:29.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b8ac15514a4991333238ad"
+  },
+  "name": "user_1",
+  "email": "user1@user.com",
+  "password": "$2b$10$..ySGF95vHNgP4wu.amElu1pCkd8JLiVI6qoW.K6n9L18k7HMnAuO",
+  "phone": "50091931",
+  "address": "Tunisia",
+  "answer": "Handball",
+  "role": 0,
+  "createdAt": {
+    "$date": "2023-07-20T03:37:57.215Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-20T03:40:36.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64b9f4b71851927084285037"
+  },
+  "name": "new_user",
+  "email": "user@user.com",
+  "password": "$2b$10$UPLyvyMm5olBynI/Cq8kg.q1Fn1OSp2ZyZ/lilWw.qltMjgu1/uM.",
+  "phone": "50091931",
+  "address": "Tunisia",
+  "answer": "Football",
+  "role": 0,
+  "createdAt": {
+    "$date": "2023-07-21T03:00:07.548Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-21T03:02:11.961Z"
+  },
+  "__v": 0
+}]
