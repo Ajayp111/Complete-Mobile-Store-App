@@ -60,7 +60,7 @@ export const updateCategoryController = async (req, res) => {
 };
 
 // Controller to get all categories
-export const categoryController = async (req, res) => {
+export const categoryControlller = async (req, res) => {
   try {
     const categories = await categoryModel.find({}); // Retrieving all categories from the database
     res.status(200).send({
@@ -98,7 +98,7 @@ export const singleCategoryController = async (req, res) => {
 };
 
 // Controller to delete a category
-export const deleteCategoryController = async (req, res) => {
+export const deleteCategoryCOntroller = async (req, res) => {
   try {
     const { id } = req.params; // Extracting 'id' from the request parameters
     await categoryModel.findByIdAndDelete(id);

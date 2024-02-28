@@ -11,7 +11,7 @@ export default function useCategory() {
     try {
       const { data } = await axios.get("/api/v1/category/get-category");
       // Updating the categories state with the received data
-      setCategories(data?.category);
+      setCategories(data?.categories);
     } catch (error) {
       console.log(error);
     }

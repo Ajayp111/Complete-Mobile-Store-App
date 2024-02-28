@@ -24,8 +24,9 @@ const CreateProduct = () => {
     try {
       const { data } = await axios.get("/api/v1/category/get-category");
       if (data?.success) {
-        setCategories(data?.category);
+        setCategories(data?.categories);
       }
+      console.log({ data });
     } catch (error) {
       console.log(error);
       toast.error("Something wwent wrong in getting catgeory");
