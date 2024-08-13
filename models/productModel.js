@@ -29,6 +29,7 @@ const productSchema = new mongoose.Schema(
     },
     photo: {
       data: Buffer,
+      // // This field stores the actual binary data of the image and This allows  to store the image as it is, in binary form, in a database.
       contentType: String,
     },
     shipping: {
